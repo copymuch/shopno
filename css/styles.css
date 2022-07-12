@@ -4,7 +4,8 @@ body {
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+  padding: 0 15px; }
 
 .container {
   width: 100%;
@@ -30,7 +31,6 @@ h3 {
 .header_container {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
   align-items: center; }
 
 .menu {
@@ -124,5 +124,17 @@ h3 {
   .about_section_text {
     width: 100%;
     text-align: center; } }
+.works_section_list {
+  margin: 125px 0;
+  flex-wrap: wrap; }
+  .works_section_list ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .works_section_list li {
+    padding: 0 7px 12px 7px; }
 
 /*# sourceMappingURL=styles.css.map */
