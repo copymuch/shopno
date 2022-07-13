@@ -4,12 +4,10 @@ body {
 .wrapper {
   max-width: 1170px;
   margin: 0 auto;
-  width: 100%;
-  padding: 0 15px; }
+  width: 100%; }
 
 .container {
-  width: 100%;
-  margin: 0 auto; }
+  padding: 0 15px; }
 
 header {
   padding-top: 65px;
@@ -36,8 +34,7 @@ h3 {
 .menu {
   width: 30px;
   height: 20px;
-  position: relative;
-  border: 1px solid #000; }
+  position: relative; }
   .menu span {
     display: block;
     width: 100%;
@@ -93,6 +90,9 @@ h3 {
   right: 30px;
   top: 450px; }
 
+@media screen and (max-width: 754px) {
+  .promo_section_img {
+    top: 550px; } }
 .heading {
   text-align: center;
   margin-top: 120px; }
@@ -120,6 +120,9 @@ h3 {
     color: #4c4c4c;
     line-height: 1.5; }
 
+.about_section_img img {
+  width: 100%; }
+
 @media only screen and (max-width: 754px) {
   .about_section_text {
     width: 100%;
@@ -135,6 +138,70 @@ h3 {
     justify-content: space-around;
     flex-wrap: wrap; }
   .works_section_list li {
-    padding: 0 7px 12px 7px; }
+    padding: 0 3px 12px 3px; }
+
+.works_section_list_1 img {
+  width: 100%; }
+
+.quote_section_content {
+  display: flex;
+  margin: 135px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .quote_section_content figure {
+    background-color: #eaebed;
+    padding: 100px 0 70px 0;
+    width: 100%;
+    margin: 0 auto; }
+  .quote_section_content figcaption {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 20px; }
+  .quote_section_content span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #878788; }
+  .quote_section_content img {
+    margin-top: -50px; }
+
+.quote_section_img img {
+  width: 100%; }
+
+.quote_section_blockquote {
+  text-align: center; }
+  .quote_section_blockquote blockquote {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 30px 0; }
+
+.quote_section_arrow {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; }
+  .quote_section_arrow img {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 20px 40px 0 1px; }
+    .quote_section_arrow img:last-of-type {
+      background-color: #71f6eb; }
+
+@media screen and (max-width: 754px) {
+  .quote_section_blockquote blockquote {
+    width: 100%; }
+  .quote_section_blockquote figure {
+    width: 100%; }
+
+  .quote_section_arrow {
+    justify-content: center; }
+    .quote_section_arrow img {
+      margin-right: 0; }
+      .quote_section_arrow img:last-of-type {
+        margin-left: 20px; } }
 
 /*# sourceMappingURL=styles.css.map */
